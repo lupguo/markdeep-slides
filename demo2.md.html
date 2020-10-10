@@ -1,0 +1,74 @@
+<meta charset="utf-8" lang="en">
+
+**Building presentation slides with markdeep**
+    Acrobat Reader? I hardly know her!
+
+> 人生就是一条河流，中间可能会蜿蜒曲折，但请记住，你的目标是星辰大海!
+
+# 走路听获
+
+---
+## 少走弯路的推荐
+1. 花时间认真读书
+2. 精研基础技术到底层
+3. 编写单元测试
+4. 利用工具不断小重构
+5. 学习软件工程经验
+6. 所学教人
+
+---
+## 系统思维
+1. 线性思维和系统思维，树木与森林，万物皆有联系
+2. 系统反馈回路
+   1. 反馈调节（水温调节）
+   2. 增强回路（飞轮效应，锻炼->健身->精力->锻炼）
+   3. 闭环回路，形成势能
+3. 成为系统驱动的人，明确目标，建立闭环，条件回路，持之以恒，迭代演进
+   1. 明确目标，以终为始，逆向思维（What的问题，很重要。有时候自己大都都是在What的基础上寻找How解决问题方法，What很难）
+   2. 建立闭环（How的问题）
+   3. 调节回路，闭环中寻找关键点，增强回路（健身闭环，晒照，继续健身）
+   4. 持之以恒，维持系统稳妥（肌肉记忆）
+   5. 迭代演进，进入更大系统，实现自我赋能，再次生态循环 （由小及大）
+
+---
+## 有效提问
+
+1. 事先研究，但不要太长（技术刺探）
+2. 提供背景，XYZ问题方式
+   1. 我服务失败了，能帮忙看下问题么？（协议简单，但需要多次交互，传输信息。在RTX、企业微信时代，损耗很大）
+   2. 我在服务器X部署了某服务，日志显示Y错误，我修改了Z地方，能看下原因么（协议携带信息上下文很多）
+3. 提出到目前所做的尝试，减少回答人的时间
+4. 精简语言，减少噪音信息
+5. 写下答案，记录解决问题过程，有效
+
+<!-- Markdeep slides stuff -->
+<script>
+    markdeepSlidesOptions = {
+        aspectRatio: 16 / 9,
+        theme: 'deepsea',
+        fontSize: 24,
+        diagramZoom: 1.0,
+        totalSlideNumber: false,
+        progressBar: true,
+        breakOnHeadings: false,
+        slideChangeHook: (oldSlide, newSlide) => {},
+        modeChangeHook: (newMode) => {}
+    };
+</script>
+<link rel="stylesheet" href="markdeep-slides/lib/markdeep-relative-sizes/1.11/relativize.css">
+<link rel="stylesheet" href="markdeep-slides/markdeep-slides.css">
+<script src="markdeep-slides/markdeep-slides.js"></script>
+
+<!-- Markdeep stuff -->
+<script>
+    markdeepOptions = {
+        tocStyle: 'none',
+        detectMath: false,
+        onLoad: function() {
+            initSlides();
+        }
+    };
+</script>
+<style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
+<script src="markdeep-slides/lib/markdeep/1.11/markdeep.min.js" charset="utf-8"></script>
+<script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
